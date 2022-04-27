@@ -1,0 +1,23 @@
+Package: shinyGizmo
+Type: Package
+Title: Custom Components for Shiny Applications
+Version: 0.1
+Authors@R: 
+    c(person(
+      'Krystian', 'Igras', 
+      email = 'krystian8207@gmail.com', 
+      role = c('cre', 'aut')
+    ))
+Maintainer: Krystian Igras <krystian8207@gmail.com>
+Description: Provides useful UI components and input widgets for 'Shiny' applications.
+    The offered components allow to apply non-standard operations and view to your 
+    'Shiny' application, but also help to overcome common performance issues.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: magrittr, purrr, glue, htmltools, shiny, shinyWidgets
+RoxygenNote: 7.1.2
+NeedsCompilation: no
+Packaged: 2022-04-22 13:00:37 UTC; krystian
+Author: Krystian Igras [cre, aut]
+Repository: CRAN
+Date/Publication: 2022-04-27 08:30:06 UTC
