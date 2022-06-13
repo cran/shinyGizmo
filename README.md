@@ -1,7 +1,7 @@
 
 # shinyGizmo
 
-[![version](https://img.shields.io/static/v1.svg?label=github.com&message=v.0.1&color=ff69b4)](https://img.shields.io/static/v1.svg?label=github.com&message=v.0.1&color=ff69b4)
+[![version](https://img.shields.io/static/v1.svg?label=github.com&message=v.0.2&color=ff69b4)](https://img.shields.io/static/v1.svg?label=github.com&message=v.0.1&color=ff69b4)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-success.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 
 ## Overview
@@ -11,7 +11,7 @@ applications.
 
 <center>
 
-## <span style="color:blue"> shinyGizmo 0.1 is now available!</span>
+## <span style="color:blue"> shinyGizmo 0.2 is now available!</span>
 
 </center>
 
@@ -21,13 +21,22 @@ From CRAN:
 
     install.packages("shinyGizmo")
 
-Lastest development version from Github:
+Latest development version from Github:
 
     remotes::install_github(
       "r-world-devs/shinyGizmo"
     )
 
 ## Available components
+
+### conditionalJS - extended version of `shiny::conditionalPanel`.
+
+Allows to attach conditional JavaScript action to be run on UI element.
+
+Use predefined actions such as `disable`, `attachClass`, `css`, `show`
+or define a custom one.
+
+![](./man/figures/condjs.gif)
 
 ### pickCheckboxInput - make selection in many groups at once
 
@@ -45,7 +54,7 @@ Lastest development version from Github:
 
 ![](./man/figures/valuebutton.gif)
 
-### textArea - Non-binding version of `shiny::textAreaInput`.
+### textArea - non-binding version of `shiny::textAreaInput`.
 
 ![](./man/figures/textarea.gif)
 
@@ -54,9 +63,9 @@ text area. Works great with `valueButton`.
 
 ## Lifecycle
 
-shinyGizmo 0.1 is stable but we’re still developing the package. If you
-find bugs or have any suggestions for future releases post an issue on
-GitHub page at <https://github.com/r-world-devs/shinyGizmo/issues>.
+shinyGizmo is stable but we’re still developing the package. If you find
+bugs or have any suggestions for future releases post an issue on GitHub
+page at <https://github.com/r-world-devs/shinyGizmo/issues>.
 
 ## Getting help
 
