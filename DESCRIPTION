@@ -1,24 +1,32 @@
-Package: shinyGizmo
 Type: Package
+Package: shinyGizmo
 Title: Custom Components for Shiny Applications
-Version: 0.2
-Authors@R: 
-    c(person(
-      'Krystian', 'Igras', 
-      email = 'krystian8207@gmail.com', 
-      role = c('cre', 'aut')
-    ))
+Version: 0.3
+Authors@R: c(
+    person("Krystian", "Igras", , "krystian8207@gmail.com", role = c("cre", "aut")),
+    person("Adam", "Foryś", role = "ctb"),
+    person("Stéphane", "Laurent", role = "ctb"),
+    person("Craig", "Dennis", role = "cph",
+           comment = "jQuery animateCSS"),
+    person("Daniel", "Eden", role = "cph",
+           comment = "Animate.css")
+  )
 Maintainer: Krystian Igras <krystian8207@gmail.com>
-Description: Provides useful UI components and input widgets for 'Shiny' applications.
-    The offered components allow to apply non-standard operations and view to your 
-    'Shiny' application, but also help to overcome common performance issues.
+Description: Provides useful UI components and input widgets for 'Shiny'
+    applications.  The offered components allow to apply non-standard
+    operations and view to your 'Shiny' application, but also help to
+    overcome common performance issues.
 License: MIT + file LICENSE
+Imports: glue, rlang, htmltools, htmlwidgets, magrittr, purrr, shiny
+        (>= 1.5.0), shinyWidgets
 Encoding: UTF-8
-Imports: magrittr, purrr, glue, htmltools, htmlwidgets, shiny,
-        shinyWidgets
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0
 NeedsCompilation: no
-Packaged: 2022-06-13 09:43:29 UTC; krystian
-Author: Krystian Igras [cre, aut]
+Packaged: 2022-12-15 13:27:01 UTC; krystian
+Author: Krystian Igras [cre, aut],
+  Adam Foryś [ctb],
+  Stéphane Laurent [ctb],
+  Craig Dennis [cph] (jQuery animateCSS),
+  Daniel Eden [cph] (Animate.css)
 Repository: CRAN
-Date/Publication: 2022-06-13 10:20:02 UTC
+Date/Publication: 2022-12-15 14:00:02 UTC
