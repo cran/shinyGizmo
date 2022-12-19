@@ -1,7 +1,7 @@
 Type: Package
 Package: shinyGizmo
 Title: Custom Components for Shiny Applications
-Version: 0.3
+Version: 0.4
 Authors@R: c(
     person("Krystian", "Igras", , "krystian8207@gmail.com", role = c("cre", "aut")),
     person("Adam", "Foryś", role = "ctb"),
@@ -20,13 +20,13 @@ License: MIT + file LICENSE
 Imports: glue, rlang, htmltools, htmlwidgets, magrittr, purrr, shiny
         (>= 1.5.0), shinyWidgets
 Encoding: UTF-8
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2022-12-15 13:27:01 UTC; krystian
+Packaged: 2022-12-19 12:23:54 UTC; krystian
 Author: Krystian Igras [cre, aut],
   Adam Foryś [ctb],
   Stéphane Laurent [ctb],
   Craig Dennis [cph] (jQuery animateCSS),
   Daniel Eden [cph] (Animate.css)
 Repository: CRAN
-Date/Publication: 2022-12-15 14:00:02 UTC
+Date/Publication: 2022-12-19 13:10:02 UTC
