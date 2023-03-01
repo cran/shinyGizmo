@@ -1,7 +1,7 @@
-b9f889fdca2379e10f096ab8640280e9 *DESCRIPTION
+3859a0aa5dd9e94df1bf660f83a91af3 *DESCRIPTION
 159e212a075d4235132b116a2f942ba1 *LICENSE
 5fdb55e4af57d197a125b98159ba641c *NAMESPACE
-6a1f486863235d79645403697c2a5335 *NEWS.md
+02ce823b8b47a477df75927f2accfb2a *NEWS.md
 14dcad2b527f8bc283fbc5b2f0cbba9f *R/accordion.R
 d43370b8ff1e87cba66752d09f6142a2 *R/commonInput.R
 bc9e1e5906a93a264534c3c1a7c805a8 *R/conditionalJS.R
@@ -11,7 +11,7 @@ f67592d8edd92cb06e7be44155b5b661 *R/imports.R
 f0988e6dc99be3b4a9cc2174d59ac2d5 *R/textArea.R
 88a2a14527c65d365d8f6e97d06deb64 *R/uiModal.R
 d2fa2145e407c532d387409427697b8b *R/valueButton.R
-ebb2f1da0eb46cf0c7de5317ccac2c97 *README.md
+c662168439409ed499761f72ed665073 *README.md
 87e5da1f980c05719415a20589efed67 *inst/www/accordion.css
 14c0e68ea7522230c8201ce80a4cc388 *inst/www/accordion.js
 5719ba56e82e7e3a71776c9b9f1ea94c *inst/www/commoninput.js
@@ -23,7 +23,7 @@ f3e75855f69de72c3f17e01bede743ed *inst/www/libs/jquery.animatecss.min.js
 9da292788d17281e51bf61b4b4bdfd86 *inst/www/pickcheckbox.css
 8be4fe1e431678e4c4de798ab4b59d85 *inst/www/pickcheckbox.js
 1caa236990838ddc7870c144efddca42 *inst/www/textarea.js
-ce20fe06ff516b8c23064347fc28acbb *inst/www/valuebutton.js
+f646ac45672eddaec9bf74ed5183999e *inst/www/valuebutton.js
 4ee685698d64ab4a9d2a30b88c38dbad *man/accordion.Rd
 e11ca8db3ecc7e973d0ddf8bb1b90db0 *man/accordionEnrollOnClick.Rd
 01d5bf1b33e58e1fb9b04098d67e2e73 *man/accordionItem.Rd
